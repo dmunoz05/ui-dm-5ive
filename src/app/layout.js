@@ -1,4 +1,5 @@
-import { GeistSans } from 'geist/font/sans';
+import { GeistMono } from 'geist/font/mono'
+import Header from 'ui-dm-5ive/layouts/header';
 import "./globals.css";
 
 
@@ -9,8 +10,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={GeistSans.className}>
-      <body>{children}</body>
+    <html lang="en" className={`${GeistMono.variable}`}>
+      <body className='font-mono '>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
