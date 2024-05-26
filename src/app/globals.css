@@ -16,6 +16,7 @@
 }
 
 body {
+  font-size: 14px;
   color: var(--primary-100);
   background: linear-gradient(
       to bottom,

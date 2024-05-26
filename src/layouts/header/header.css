@@ -1,0 +1,30 @@
+#header-container {
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 2rem;
+}
+
+#header-container .header-title {
+  width: 10rem;
+}
+
+#header-container ul {
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 2rem;
+}
+
+#header-divider {
+  font-weight: 100;
+}
+
+#header-container .header-contribute {
+  display: flex;
+  justify-content: center;
+}

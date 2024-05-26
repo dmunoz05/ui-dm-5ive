@@ -1,5 +1,5 @@
 import { GeistMono } from 'geist/font/mono'
-import Header from 'ui-dm-5ive/layouts/header';
+import Header from 'ui-dm-5ive/layouts/header/header';
 import "./globals.css";
 
 

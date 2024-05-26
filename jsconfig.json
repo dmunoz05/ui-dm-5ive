@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "paths": {
-      "ui-dm-5ive/*": ["./src/*"]
+      "@ui-dm-5ive/*": ["./src/*"]
     }
   }
 }
