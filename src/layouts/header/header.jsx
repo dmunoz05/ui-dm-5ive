@@ -26,7 +26,7 @@ export default function Header() {
         |
       </span>
       <div className='header-contribute'>
-        <a href="https://github.com/dmunoz05/ui-dm-5ive" target='__blank'>
+        <a href="https://github.com/dmunoz05/ui-dm-five" target='__blank'>
           <IconGithub />
         </a>
       </div>
