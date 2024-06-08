@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className={`flex h-full flex-col items-center justify-between px-24`}>
+    <main className={`flex flex-col items-center justify-between px-24`}>
       <section id='section-logo-home' className='flex flex-col items-center justify-center w-full my-20 py-10'>
         <div className='z-10 w-full h-full items-center justify-center gap-8 text-sm lg:flex flex-col pt-24'>
           <div className='flex flex-col justify-center w-full'>
@@ -28,11 +28,29 @@ export default function Home() {
       <section className='flex flex-col items-center justify-between w-full my-10 py-10'>
         <div className='z-10 w-full h-full items-center justify-center gap-8 text-sm lg:flex flex-col pt-24'>
           <div className='flex flex-col justify-center w-full'>
-            <h1 className='font-bold text-3xl text-center'>Simple to use</h1>
+            <h1 className='font-bold text-3xl text-center'>Simple to use and install</h1>
           </div>
           <div className='p-2'><span>The library of components in your project simple to use, you can download and add the package to your project</span></div>
-            <GetStarted />
+          <GetStarted />
           <div>
+          </div>
+        </div>
+      </section>
+      <section className='flex flex-col items-center justify-between w-full my-10 py-10'>
+        <div className='z-10 w-full h-full items-center justify-center gap-8 text-sm lg:flex flex-col pt-24'>
+          <div>
+            Carefully crafted components for your project
+          </div>
+          <div className='flex gap-5'>
+            <div id="card">
+              Intuitive
+            </div>
+            <div id="card">
+              Simple
+            </div>
+            <div id="card">
+              Easy
+            </div>
           </div>
         </div>
       </section>

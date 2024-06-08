@@ -54,3 +54,17 @@ html {
 section#section-logo-home {
   height: 35rem;
 }
+
+
+#card {
+  border: 1px solid #fff;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 10px;
+  padding: 10rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

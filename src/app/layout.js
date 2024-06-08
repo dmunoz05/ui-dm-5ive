@@ -1,6 +1,7 @@
 import { GeistMono } from 'geist/font/mono'
 import Header from '@ui-dm-5ive/layouts/header/header';
 import "./globals.css";
+import Footer from '@ui-dm-5ive/layouts/footer/footer';
 
 
 export const metadata = {
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
       <body className='font-mono '>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
