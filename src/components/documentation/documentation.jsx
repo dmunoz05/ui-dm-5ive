@@ -16,7 +16,7 @@ export default function Documentation() {
         <div className='z-10 w-full h-full items-start gap-6 text-sm lg:flex flex-col py-6 px-20'>
           <section id="get-started">
             <div>
-              <h1 className='text-2xl'>Get started</h1>
+              <h1 className='font-bold text-2xl'>Get started</h1>
             </div>
             <br />
             <div>
@@ -32,7 +32,7 @@ export default function Documentation() {
           </section>
           <section id="overview">
             <div>
-              <h1 className='text-2xl'>Overview</h1>
+              <h1 className='font-bold text-2xl'>Overview</h1>
             </div>
             <br />
             <div>
@@ -48,7 +48,7 @@ export default function Documentation() {
           </section>
           <section id="download">
             <div>
-              <h1 className='text-2xl'>Download</h1>
+              <h1 className='font-bold text-2xl'>Download</h1>
             </div>
             <br />
             <div>
@@ -64,7 +64,7 @@ export default function Documentation() {
           </section>
           <section id="usage">
             <div>
-              <h1 className='text-2xl'>Usage</h1>
+              <h1 className='font-bold text-2xl'>Usage</h1>
             </div>
             <br />
             <div>
@@ -80,7 +80,7 @@ export default function Documentation() {
           </section>
           <section id="help">
             <div>
-              <h1 className='text-2xl'>Help</h1>
+              <h1 className='font-bold text-2xl'>Help</h1>
             </div>
             <br />
             <div>
@@ -96,7 +96,7 @@ export default function Documentation() {
           </section>
           <section id="term-and-privacity">
             <div>
-              <h1 className='text-2xl'>Terms and privacity</h1>
+              <h1 className='font-bold text-2xl'>Terms and privacity</h1>
             </div>
             <br />
             <div>
