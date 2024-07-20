@@ -4,7 +4,7 @@ import IconGithub from '@ui-dm-5ive/assets/icons/iconGithub'
 
 export default function Header() {
   return (
-    <div id='header-container' className='w-full'>
+    <div id='header-container' className='w-full z-10 '>
       <div className='header-title'>
         <a href='/'>UI dm-5ive</a>
       </div>

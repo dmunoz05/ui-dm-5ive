@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${GeistMono.variable}`}>
       <body className='font-mono '>
         <Header />
-        {children}
+          {children}
         <Footer />
       </body>
     </html>

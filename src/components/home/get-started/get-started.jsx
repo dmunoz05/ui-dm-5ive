@@ -27,7 +27,7 @@ export default function GetStarted() {
       <section className='relative'>
         <input disabled className='w-fit bg-[#9b9b9b] h-8 border-2 rounded-lg p-7 border-black outline-none text-black flex justify-center text-center'
           value={text} />
-        <button className='absolute top-1 right-1' onClick={handleCopy} style={{ cursor: 'pointer' }}>
+        <button className='absolute top-1 right-1 hover:scale-110 transition-transform' onClick={handleCopy} style={{ cursor: 'pointer' }}>
           {copied ? <IconCopy /> : <IconNotCopy />}
         </button>
       </section>
