@@ -1,15 +1,15 @@
-import SlideBarDocumentation from "./slide-bar-documentation"
+import SlideBarBlog from "./slide-bar-blog"
 
-export default function Documentation() {
+export default function Blog() {
 
   return (
     <div className='h-full w-full'>
       <aside className='fixed z-10 left-0 top-0 border-r-2 border-white h-full w-1/5 pt-14'>
         <div className='h-full w-full p-6'>
           <div className='flex flex-col w-full pb-6'>
-            <h1 className='font-bold text-xl'>Documentation</h1>
+            <h1 className='font-bold text-xl'>Blog</h1>
           </div>
-          <SlideBarDocumentation />
+          <SlideBarBlog />
         </div>
       </aside>
       <section className='flex flex-col ml-72 pt-14 h-full'>
@@ -81,22 +81,6 @@ export default function Documentation() {
           <section id="help">
             <div>
               <h1 className='text-2xl'>Help</h1>
-            </div>
-            <br />
-            <div>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
-            </div>
-            <br />
-            <div>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
-            </div>
-            <br />
-          </section>
-          <section id="term-and-privacity">
-            <div>
-              <h1 className='text-2xl'>Terms and privacity</h1>
             </div>
             <br />
             <div>

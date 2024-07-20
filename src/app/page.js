@@ -1,4 +1,4 @@
-import GetStarted from "@ui-dm-5ive/components/home/get-started/get-started";
+import GetStarted from "@ui-dm-5ive/components/home/get-started";
 import Link from "next/link";
 import IconGithub from "@ui-dm-5ive/assets/icons/iconGithub";
 
